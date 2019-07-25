@@ -3,25 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80B924A22E89BBB002572A6 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B924922E89BBB002572A6 /* AuthViewController.swift */; };
+		A899546922E89EFB008E9457 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A899546822E89EFA008E9457 /* GoogleService-Info.plist */; };
+		A899546B22E8A57F008E9457 /* Eagle-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A899546A22E8A57F008E9457 /* Eagle-Bold.otf */; };
+		A899546D22E8A6F0008E9457 /* SnapsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899546C22E8A6F0008E9457 /* SnapsTableViewController.swift */; };
+		A899546F22E8AA09008E9457 /* CreateSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899546E22E8AA09008E9457 /* CreateSnapViewController.swift */; };
+		A899547122E8D657008E9457 /* Eagle-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A899547022E8D657008E9457 /* Eagle-Light.otf */; };
+		A899547322E8DE9E008E9457 /* SelectUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899547222E8DE9E008E9457 /* SelectUserTableViewController.swift */; };
+		A899547522E936AD008E9457 /* ViewSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899547422E936AD008E9457 /* ViewSnapViewController.swift */; };
+		A899547722E9454A008E9457 /* snapMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A899547622E9454A008E9457 /* snapMeIcon.png */; };
 		A8B82A2922E747E100734E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B82A2822E747E100734E4B /* AppDelegate.swift */; };
-		A8B82A2B22E747E100734E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B82A2A22E747E100734E4B /* ViewController.swift */; };
 		A8B82A2E22E747E100734E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B82A2C22E747E100734E4B /* Main.storyboard */; };
 		A8B82A3022E747E300734E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B82A2F22E747E300734E4B /* Assets.xcassets */; };
 		A8B82A3322E747E300734E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B82A3122E747E300734E4B /* LaunchScreen.storyboard */; };
+		C19D55C957404D0823513A76 /* Pods_SnapMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA12788A837FAA4D2A3FDC3 /* Pods_SnapMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EA12788A837FAA4D2A3FDC3 /* Pods_SnapMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9918D9738B61A0364424528A /* Pods-SnapMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapMe.debug.xcconfig"; path = "Target Support Files/Pods-SnapMe/Pods-SnapMe.debug.xcconfig"; sourceTree = "<group>"; };
+		A80B924922E89BBB002572A6 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		A899546822E89EFA008E9457 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A899546A22E8A57F008E9457 /* Eagle-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Eagle-Bold.otf"; path = "../../../Downloads/2018-2019/team2059/Eagle-Bold.otf"; sourceTree = "<group>"; };
+		A899546C22E8A6F0008E9457 /* SnapsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsTableViewController.swift; sourceTree = "<group>"; };
+		A899546E22E8AA09008E9457 /* CreateSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSnapViewController.swift; sourceTree = "<group>"; };
+		A899547022E8D657008E9457 /* Eagle-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Eagle-Light.otf"; path = "../../../Downloads/Eagle-Light.otf"; sourceTree = "<group>"; };
+		A899547222E8DE9E008E9457 /* SelectUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserTableViewController.swift; sourceTree = "<group>"; };
+		A899547422E936AD008E9457 /* ViewSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSnapViewController.swift; sourceTree = "<group>"; };
+		A899547622E9454A008E9457 /* snapMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snapMeIcon.png; path = ../../snapMeIcon.png; sourceTree = "<group>"; };
 		A8B82A2522E747E100734E4B /* SnapMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B82A2822E747E100734E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8B82A2A22E747E100734E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8B82A2D22E747E100734E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8B82A2F22E747E300734E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8B82A3222E747E300734E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8B82A3422E747E300734E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF695791C2699EF63C4A4760 /* Pods-SnapMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapMe.release.xcconfig"; path = "Target Support Files/Pods-SnapMe/Pods-SnapMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19D55C957404D0823513A76 /* Pods_SnapMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00304FF8E82C231BE8018D09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9918D9738B61A0364424528A /* Pods-SnapMe.debug.xcconfig */,
+				BF695791C2699EF63C4A4760 /* Pods-SnapMe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A8B82A1C22E747E100734E4B = {
 			isa = PBXGroup;
 			children = (
 				A8B82A2722E747E100734E4B /* SnapMe */,
 				A8B82A2622E747E100734E4B /* Products */,
+				00304FF8E82C231BE8018D09 /* Pods */,
+				DE6C2FED1471952B804FD4E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +87,29 @@
 			isa = PBXGroup;
 			children = (
 				A8B82A2822E747E100734E4B /* AppDelegate.swift */,
-				A8B82A2A22E747E100734E4B /* ViewController.swift */,
+				A80B924922E89BBB002572A6 /* AuthViewController.swift */,
+				A899546C22E8A6F0008E9457 /* SnapsTableViewController.swift */,
+				A899546E22E8AA09008E9457 /* CreateSnapViewController.swift */,
+				A899547222E8DE9E008E9457 /* SelectUserTableViewController.swift */,
+				A899547422E936AD008E9457 /* ViewSnapViewController.swift */,
 				A8B82A2C22E747E100734E4B /* Main.storyboard */,
+				A899547622E9454A008E9457 /* snapMeIcon.png */,
+				A899547022E8D657008E9457 /* Eagle-Light.otf */,
+				A899546A22E8A57F008E9457 /* Eagle-Bold.otf */,
 				A8B82A2F22E747E300734E4B /* Assets.xcassets */,
 				A8B82A3122E747E300734E4B /* LaunchScreen.storyboard */,
 				A8B82A3422E747E300734E4B /* Info.plist */,
+				A899546822E89EFA008E9457 /* GoogleService-Info.plist */,
 			);
 			path = SnapMe;
+			sourceTree = "<group>";
+		};
+		DE6C2FED1471952B804FD4E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EA12788A837FAA4D2A3FDC3 /* Pods_SnapMe.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8B82A3722E747E300734E4B /* Build configuration list for PBXNativeTarget "SnapMe" */;
 			buildPhases = (
+				6EE9E2E1E3077AEEE1786F60 /* [CP] Check Pods Manifest.lock */,
 				A8B82A2122E747E100734E4B /* Sources */,
 				A8B82A2222E747E100734E4B /* Frameworks */,
 				A8B82A2322E747E100734E4B /* Resources */,
+				BF53A8F88EB5690AEAB02BAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,19 +173,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8B82A3322E747E300734E4B /* LaunchScreen.storyboard in Resources */,
+				A899546922E89EFB008E9457 /* GoogleService-Info.plist in Resources */,
 				A8B82A3022E747E300734E4B /* Assets.xcassets in Resources */,
 				A8B82A2E22E747E100734E4B /* Main.storyboard in Resources */,
+				A899546B22E8A57F008E9457 /* Eagle-Bold.otf in Resources */,
+				A899547122E8D657008E9457 /* Eagle-Light.otf in Resources */,
+				A899547722E9454A008E9457 /* snapMeIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EE9E2E1E3077AEEE1786F60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF53A8F88EB5690AEAB02BAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapMe/Pods-SnapMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapMe/Pods-SnapMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapMe/Pods-SnapMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A8B82A2122E747E100734E4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8B82A2B22E747E100734E4B /* ViewController.swift in Sources */,
+				A899546D22E8A6F0008E9457 /* SnapsTableViewController.swift in Sources */,
+				A899547522E936AD008E9457 /* ViewSnapViewController.swift in Sources */,
+				A899547322E8DE9E008E9457 /* SelectUserTableViewController.swift in Sources */,
+				A80B924A22E89BBB002572A6 /* AuthViewController.swift in Sources */,
+				A899546F22E8AA09008E9457 /* CreateSnapViewController.swift in Sources */,
 				A8B82A2922E747E100734E4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +380,11 @@
 		};
 		A8B82A3822E747E300734E4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9918D9738B61A0364424528A /* Pods-SnapMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDFB4AV4DM;
 				INFOPLIST_FILE = SnapMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +399,11 @@
 		};
 		A8B82A3922E747E300734E4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF695791C2699EF63C4A4760 /* Pods-SnapMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDFB4AV4DM;
 				INFOPLIST_FILE = SnapMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
